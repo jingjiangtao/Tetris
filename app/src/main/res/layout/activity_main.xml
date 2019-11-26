@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="268dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_weight="0.16"
+        android:onClick="onClick_easy"
+        android:text="简单"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="272dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.07"
+
+        android:onClick="onClick_usually"
+        android:text="普通"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="271dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.11"
+        android:onClick="onClick_difficult"
+        android:text="困难"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.01"
+        android:onClick="onClick_score"
+        android:text="排行"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+</LinearLayout>
